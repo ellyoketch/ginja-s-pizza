@@ -1,15 +1,23 @@
 .menu {
-    background-image: url(./Assets/background.jpg);
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.7;
-
+    
+    
 }
 
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+
 .header {
-    background-image: url(./Assets/image4.webp);
+    background-image: url(./Assets/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 200px;
 
 }
