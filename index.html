@@ -148,11 +148,11 @@
     
         <div class="cdata-overlay">
             <div class="customerdata row">
-                <div class="col-sm-3"></div>
+                <div class="col-sm-3" id="input-form"></div>
                 <form action="" class="form-group col-sm-6 data">
-                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                    <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                    <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                    <input type="text" id="name" placeholder="Enter your Name:">
+                    <input type="text" id="number" placeholder="Enter your phone number: ">
+                    <input type="text" id="location" placeholder="Enter the location: ">
                     <button class="btn bg-info text-center d-block mx-auto go">Delivery</button>
                 </form>
     
@@ -160,7 +160,7 @@
             </div>
         </div>
         <div class="d-block mx-auto text-center">
-            <button class='deliver'>checkout</button>
+            <button id='deliver'>checkout</button>
         </div>
     </div>
     <script src="script.js"></script>
