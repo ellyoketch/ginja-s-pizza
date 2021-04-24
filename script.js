@@ -236,7 +236,7 @@ $(function () {
         }
 
 
-        let newOrder = order(flavour, size, crust, topping, number, totalPrice);
+        let newOrder = order(size, crust, topping, totalPrice);
         console.log(newOrder)
         $('.summary').slideDown(2000);
         $('.cdata-overlay').slideUp();
@@ -245,7 +245,7 @@ $(function () {
         $('.delivernot').show(1000);
 
         $('#list').text(" ");
-        $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
+        $("#list").append("<br>" + newOrder.f + "<br>" + "Size :   "
             + newOrder.s + "<br>" + "Crust :     "
             + newOrder.c + "<br>" + "Toppings :     "
             + newOrder.n + "<br>" + "Total Price :  "
