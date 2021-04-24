@@ -6,10 +6,13 @@
     background-repeat: no-repeat;
     font-family: Dancing script;
     font-size: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     
     
     
+}
+#submit{
+    color: green;
 }
 footer {
   background: #2a2916;

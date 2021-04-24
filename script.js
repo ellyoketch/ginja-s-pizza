@@ -5,7 +5,7 @@ $(document).ready(function(){
       let email = $("input#number").val();
       let comment = $("input#location").val();
       if ($("input#name").val() && $("input#number").val() && $("input#location").val()){
-        alert (name + ",You have successsfuly placed your order, kindly check on delivery status.");
+        alert (name + ",You have successsfuly placed your order, kindly check on delivery status and prepare ksh, 150 for delivery.");
       }
       else if ($("input#name").val() && $("input#number").val()){
         alert (name + ",kindly fill all the fields.");
@@ -63,7 +63,7 @@ $(function () {
                         break;
                     case size = "large":
                         price = 1200;
-                        if (crust === "thin") {
+                        if (crust === "stuffed") {
                             totalPrice = (price) + 200;
                         } else if (crust === "thick") {
                             totalPrice = (price) + 250;
@@ -103,7 +103,7 @@ $(function () {
                         break;
                     case size = "large":
                         price = 1200;
-                        if (crust === "thin") {
+                        if (crust === "stuffed") {
                             totalPrice = (price) + 200;
                         } else if (crust === "thick") {
                             totalPrice = (price) + 250;
@@ -145,11 +145,11 @@ $(function () {
                         break;
                     case size = "large":
                         price = 1200;
-                        if (crust === "thin") {
+                        if (crust === "stuffed") {
                             totalPrice = (price) + 200;
                         } else if (crust === "thick") {
                             totalPrice = (price) + 250;
-                        } else if (crust === "flatbread") {
+                        } else if (crust === "cripsy") {
                             totalPrice = (price) + 180;
                         } else {
                             totalPrice = (price ) + 180;
@@ -186,11 +186,11 @@ $(function () {
                         break;
                     case size = "large":
                         price = 2000;
-                        if (crust === "thin") {
+                        if (crust === "stuffed") {
                             totalPrice = (price) + 200;
                         } else if (crust === "thick") {
                             totalPrice = (price) + 250;
-                        } else if (crust === "flatbread") {
+                        } else if (crust === "cripsy") {
                             totalPrice = (price) + 180;
                         } else {
                             totalPrice = (price ) + 180;
@@ -264,7 +264,7 @@ $(function () {
         $('.delivernot').show(1000);
 
         $('#list').text(" ");
-        $("#list").append("<br>" + newOrder.f + "<br>" + "Size :   "
+        $("#list").append(+ newOrder.f + "<br>" + "Sizes :   "
             + newOrder.s + "<br>" + "Crust :     "
             + newOrder.c + "<br>" + "Toppings :     "
             + newOrder.n + "<br>" + "Total Price :  "
