@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Home</a>
-                <a class="nav-item nav-link active" href="#Menu">Menu</a>
+                <a class="nav-item nav-link active" href="#menu">Menu</a>
                 <a class="nav-item nav-link active" href="#">Contacts</a>
                 <a class="nav-item nav-link active" href="#">About-us</a>
               </div>
@@ -49,7 +49,7 @@
         </div>
             
     
-    <div style="margin-top: 200px;" class="menu"></div>
+    <div style="margin-top: 200px;" id="menu" class="menu"></div>
     <br>
     <div style="padding-top: 100px" class="menu col-md-12">
         <div class="menu-overlay">
@@ -67,7 +67,7 @@
                     <img src="./Assets/pizza3.jpeg" alt="Small-pizza" class="wiggle">
                     <p style="padding-bottom: 100px; color: green">Small pizza<br>Ksh. 800</p>
                 </div>
-                <a href="#menu">
+                <a href="#order">
                     <button class="btn bg-info mx-auto d-block menu-btn">orders</button>
                 </a>
             </div>
@@ -100,7 +100,7 @@
                                 <p class="card-text">Choose a crust:</p>
                                 <select required class="form-control" id="crust">
                                     <option></option>
-                                    <option value="cheese-filled">Cheese filled (100)</option>
+                                    <option value="cheese-filled">Cheese filled @ ksh 150</option>
                                     <option value="thick">Thick @ 250</option>
                                     <option value="stuffed">Stuffed @ ksh 200</option>
                                     <option value="crispy">Crispy @ ksh 150</option>
@@ -129,7 +129,7 @@
     
                 </form>
                 <a href="#summary">
-                    <button style="margin-left: 900px;" type="submit" class="btn btn-success checkout" id="checkout">
+                    <button style="margin-left: 880px;" type="submit" class="btn btn-success checkout" id="checkout">
                         submit
                     </button>
                 </a>
@@ -153,15 +153,14 @@
                     <input type="text" class="form-control cdata" placeholder="Enter your Name:">
                     <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
                     <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                    <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                    <button class="btn bg-info text-center d-block mx-auto go">Delivery</button>
                 </form>
     
                 <div class="col-sm-3"></div>
             </div>
         </div>
         <div class="d-block mx-auto text-center">
-            <button class='deliver'>Make Delivery</button>
-            <button class='delivernot'>Pick Up</button>
+            <button class='deliver'>checkout</button>
         </div>
     </div>
     <script src="script.js"></script>
