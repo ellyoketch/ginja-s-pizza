@@ -1,3 +1,23 @@
+// user details input
+$(document).ready(function(){
+    $("#input-form").submit(function(event){
+      let name = $("input#name").val();
+      let email = $("input#number").val();
+      let comment = $("input#location").val();
+      if ($("input#name").val() && $("input#number").val() && $("input#location").val()){
+        alert (name + ",You have successsfuly placed your order, kindly check on delivery status.");
+      }
+      else if ($("input#name").val() && $("input#number").val()){
+        alert (name + ",kindly fill all the fields.");
+      }
+      else {
+        alert("Please enter your correct correct details!");
+      }
+    
+    });
+
+  });
+// pizza price calculator function
 $(function () {
     $('.summary').hide();
     $('.cdata-overlay').hide();
@@ -196,8 +216,7 @@ $(function () {
                         price = 1500;
                         if (crust === "thick") {
                             totalPrice = (price) + 150;
-                        } else if (crust === "thick") {
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "thick"){
                             totalPrice = (price) + 200;
                         } else {
                             totalPrice = (price) + 280;
@@ -254,7 +273,7 @@ $(function () {
     $(".deliver").click(function () {
         $('.summary').slideUp();
         $('#list').slideUp();
-        $('.summary').text("Provide location details").slideDown();
+        $('.summary').text("kindly fill in your location details").slideDown();
         $('.deliver').hide(1000);
         $('.delivernot').hide(1000);
         $('.cdata-overlay').slideDown();

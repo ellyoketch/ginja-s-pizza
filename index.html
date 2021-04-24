@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
      <!-- Bootstrap CSS -->
      <link
      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
@@ -23,8 +24,8 @@
               <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Home</a>
                 <a class="nav-item nav-link active" href="#menu">Menu</a>
-                <a class="nav-item nav-link active" href="#">Contacts</a>
-                <a class="nav-item nav-link active" href="#">About-us</a>
+                <a class="nav-item nav-link active" href="#order">Orders</a>
+                <a class="nav-item nav-link active" href="#footer">Contacts</a>
               </div>
             </div>
           </nav>
@@ -38,8 +39,8 @@
                 </a>
             </div>
             <div class="row" id="bmw">
-            <div class="col-md-4"><img src="./Assets/cartoon2.jpg" alt=""></div>
-            <div class="col-md-4">
+            <div class="col-sm-4"><img src="./Assets/cartoon2.jpg" alt=""></div>
+            <div class="col-sm-4">
                 <h1 class="text-center txt txt-big text-warning" style="padding-top: 400px; font-size: 80px">GINJA'S<span class="wray text-success">PIZZA</span><br><span class="xyz text-warning">YOUR<span class="wray text-success">FAVORITE</span><span class="xyz text-warning">PIZZA!</span>
                 </h1>
                 <p class="text-center text-success">The best pizza you'll ever taste</p>
@@ -142,16 +143,14 @@
         <h2 class="text-center summary">Hello customer, your order is as follows:</h2>
         <ol id="list" class="text-center sum">
         </ol>
-    
-    
         <div class="cdata-overlay">
             <div class="customerdata row">
                 <div class="col-sm-3"></div>
-                <form action="" class="form-group col-sm-6 data">
-                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                    <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                    <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                    <button class="btn bg-info text-center d-block mx-auto go">Delivery</button>
+                <form id="input-form" action="" class="form-group col-sm-6 data">
+                    <input type="text" id="name" class="form-control cdata" placeholder="Enter your Name:">
+                    <input type="text" id="number" class="form-control cdata" placeholder="Enter your phone number: ">
+                    <input type="text" id="location" class="form-control cdata" placeholder="Enter the location: ">
+                    <button type="submit" class="btn bg-info text-center d-block mx-auto go">Delivery</button>
                 </form>
     
                 <div class="col-sm-3"></div>
@@ -161,6 +160,46 @@
             <button class='deliver'>checkout</button>
         </div>
     </div>
+    <footer id="footer" class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>Ginja's Pizza</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">Accessibility</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">FAQs</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+            </div>
+              <div class="col-md-3">
+                  <h4>Follow Us</h4>
+                  <ul class="social-network social-circle">
+                   <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                   <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>				
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12 copy">
+                  <p class="text-center">&copy; Copyright 2018 - Ginjas Pizza.  All rights reserved.</p>
+              </div>
+          </div>
+      
+      
+        </div>
+        </div>
+      </footer>
     <script src="script.js"></script>
 </body>
 </html>
