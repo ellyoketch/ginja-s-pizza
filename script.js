@@ -249,10 +249,8 @@ $(function () {
             + newOrder.s + "<br>" + "Crust :     "
             + newOrder.c + "<br>" + "Toppings :     "
             + newOrder.n + "<br>" + "Total Price :  "
-            + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
+            + newOrder.total + "<br><br>").css('font-family', 'dancing-script').css('font-size', '24px');
     });
-
-    //Deliver
     $(".deliver").click(function () {
         $('.summary').slideUp();
         $('#list').slideUp();
@@ -261,14 +259,9 @@ $(function () {
         $('.delivernot').hide(1000);
         $('.cdata-overlay').slideDown();
     });
-
-
-    //Pick Up
     $(".delivernot").click(function () {
 
     });
-
-    //Scrollify
     $(function () {
         $.scrollify.move('#sum-order');
     });
