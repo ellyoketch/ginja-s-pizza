@@ -34,7 +34,7 @@ $(function () {
         };
 
         let price, totalPrice;
-        switch (toppings) {
+    switch (toppings) {
             case toppings = "pepperoni":
                 switch (size) {
                     case size = "small":
@@ -62,7 +62,7 @@ $(function () {
                         }
                         break;
                     case size = "large":
-                        price = 1200;
+                        price = 2000;
                         if (crust === "stuffed") {
                             totalPrice = (price) + 200;
                         } else if (crust === "thick") {
@@ -102,7 +102,7 @@ $(function () {
                         }
                         break;
                     case size = "large":
-                        price = 1200;
+                        price = 2000;
                         if (crust === "stuffed") {
                             totalPrice = (price) + 200;
                         } else if (crust === "thick") {
@@ -144,7 +144,7 @@ $(function () {
                         }
                         break;
                     case size = "large":
-                        price = 1200;
+                        price = 2000;
                         if (crust === "stuffed") {
                             totalPrice = (price) + 200;
                         } else if (crust === "thick") {
