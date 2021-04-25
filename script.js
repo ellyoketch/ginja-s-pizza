@@ -8,7 +8,7 @@ $(document).ready(function(){
         alert (name + ",You have successsfuly placed your order, kindly check on delivery status and prepare ksh, 150 for delivery.");
       }
       else if ($("input#name").val() && $("input#number").val()){
-        alert (name + ",kindly fill all the fields.");
+        alert (name + ",kindly fill your location details.");
       }
       else {
         alert("Please enter your correct correct details!");
@@ -267,8 +267,8 @@ $(function () {
         $("#list").append("<br>" + "Toppings :   "+ newOrder.t + "<br>" + "Sizes :   "
             + newOrder.s + "<br>" + "Crust :     "
             + newOrder.c + "<br>" + "Toppings :     "
-            + newOrder.t + "<br>" + "Total Price :  "
-            + newOrder.total + "<br><br>").css('font-family', 'dancing-script').css('font-size', '24px');
+            + newOrder.t + "<br>" + "Total Price :"
+            + newOrder.total +  "<br><br>").css('font-family', 'dancing-script').css('font-size', '24px');
     });
     $(".deliver").click(function () {
         $('.summary').slideUp();
