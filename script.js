@@ -264,10 +264,10 @@ $(function () {
         $('.delivernot').show(1000);
 
         $('#list').text(" ");
-        $("#list").append(+ newOrder.f + "<br>" + "Sizes :   "
+        $("#list").append("<br>" + "Toppings :   "+ newOrder.t + "<br>" + "Sizes :   "
             + newOrder.s + "<br>" + "Crust :     "
             + newOrder.c + "<br>" + "Toppings :     "
-            + newOrder.n + "<br>" + "Total Price :  "
+            + newOrder.t + "<br>" + "Total Price :  "
             + newOrder.total + "<br><br>").css('font-family', 'dancing-script').css('font-size', '24px');
     });
     $(".deliver").click(function () {
