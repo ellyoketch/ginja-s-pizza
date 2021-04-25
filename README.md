@@ -1,8 +1,8 @@
-# GINJA'S PIZZA WEBSITE
+# Ginjas's Pizza Website
 #### This project is about Ginja's Pizza Website, created on 22/04/2021
 #### By Elly Oketch
 ## Description
-![](./elly.png)
+![](./Assets/elly.png)
 Here’s Ginja's Pizza, a brand that guarantees to offer hot and fresh pizza with the best ingredients. It has a great website design that promises fast and easy delivery.
 The main aim of this project was to enable students implement what they've covered in class by putting it into practice.
 ## Setup/Installation Requirements
