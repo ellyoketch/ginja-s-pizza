@@ -253,6 +253,13 @@ $(function () {
                 break;
 
         }
+        // function totalPrice(e) {
+        //     event.preventDefault();
+        //     var totalPrice = (getSizeCost() + getCrustCost() + mushrooms()) * (getNumber());
+            
+        //         console.log(totalPrice);
+        
+        // }
 
 
         let newOrder = order(size, crust, topping, totalPrice);
