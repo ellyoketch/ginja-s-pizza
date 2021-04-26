@@ -68,12 +68,12 @@ ul.social-network li {
   background-color: #3B5998;
 }
 
-.social-network a.icoLinkedin:hover {
+.social-network a.icoTwitter:hover {
   background-color: #007bb7;
 }
 
 .social-network a.icoFacebook:hover i,
-.social-network a.icoLinkedin:hover i {
+.social-network a.icoTwitter:hover i {
   color: #fff;
 }
 
